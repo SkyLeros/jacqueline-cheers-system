@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Montserrat:wght@300&display=swap');
+
+header, section, footer, aside, nav, article, figure, figcaption 
+{
+  display: block;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+body
+{
+  margin: 0px;
+  background-color: #FEE7BC;
+  line-height: 1.4em;
+  padding-bottom: 0px;
+}
+
+.usersAcc h3, .products h3, .transaction h3
+{
+  font-family: Garamond,Georgia,serif;
+  font-variant: small-caps;
+  color: #840000;
+  font-size: 40px;
+  text-align: center;   
+}
+
+.header-border
+{
+  position: sticky;
+  background: #ffc94b;
+  height: 150px;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 1px 1px 5px 1px #f9faf4;
+  top: 0;
+}
+
+.header-content
+{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.header-content div
+{
+  flex: 40% ;
+  text-align: right;
+  font: 18px 'Arvo', serif;
+}
+
+.logo
+{
+  flex: 45%;
+  margin-top: 0px;
+  height: 150px;
+  width: 100%;
+}
+
+.bold
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sidenav
+{
+  margin: auto;
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  float: left;
+  z-index: 1;
+  left: 0;
+  background-color: #ffc94b;
+  overflow-x: hidden;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.sidenav a
+{
+  padding: 25px 10px 25px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFB;
+  font: bold 18px 'Montserrat', san-serif;
+  display: block;  
+}
+
+.sidenav a:hover
+{
+  background-color: #FFFFFB;
+  color: #F9B131;
+}
+
+.sidenav a.active
+{
+  background-color: #fbe0ad;
+  color: #1c171a;
+}
+
+.sidenav span 
+{
+  display: grid;
+  grid: 'icon text text';
+}
+
+.sidenav img 
+{
+  grid-area: icon;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.fixed
+{
+  position: fixed;
+  bottom: 8px;
+  width: 230px;
+  background-color: #FCD272;
+} 
+
+.fixed a
+{
+  color: black;
+} 
+
+table th,td
+{
+  border:3px solid black;
+  padding:5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 3px;
+  font: 18px 'Arvo', serif;
+}
+
+
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.admin
+{
+  display: grid;
+  width: auto;
+  margin: auto;
+  margin-left: 250px;
+  margin-right: 10px;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  background-color: #FEE7BC;
+  padding: 40px 30px 30px;
+}
+
+.admin > div
+{
+  background-color: #FCD272;
+  text-align: justify;
+  padding: 20px;
+}
+
+.admin > div h1
+{
+  font-family: "Comfortaa", cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
+  word-spacing: 0.6px;
+  color: #453101;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.admin > div h3
+{
+  font: 24px 'Arvo', serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.admin > div h4
+{
+  font-family: "Comfortaa", cursive;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  word-spacing: 20px;
+  color: #453101;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.totalOrder
+{
+  grid-area: 1 / 1;
+  width: auto;
+}
+
+.totalSales
+{
+  grid-area: 1 / 2;
+  width: auto;
+}
+
+.usersAcc
+{  
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left:280px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 80px;
+  text-align: center;    
+  width: 80%;
+}
+
+.userAcc
+{  
+  border-style: solid;
+  border-radius: 30px;
+  border-color: maroon;
+  background-color: white;
+  border-width: 3px;
+  padding:auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.products
+{  
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 270px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 80px;
+  text-align: center;
+  width: 80%;
+}
+
+.productTitle
+{  
+  border-style: solid;
+  border-radius: 30px;
+  border-color: maroon;
+  background-color: white;
+  border-width: 3px;
+  padding:auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 180px;
+  text-align: center;
+}
+
+.productImage
+{
+  width: 80px;
+  height: 80px;
+}
+
+.transaction
+{  
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 80px;
+  text-align: center;
+  width: 70%;
+}
+
+.tranTitle
+{  
+  border-style: solid;
+  border-radius: 30px;
+  border-color: maroon;
+  background-color: white;
+  border-width: 3px;
+  padding:auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.generateBtn, .deleteBtn
+{
+  width: 40%;
+  padding: 14px 30px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #FF3737;
+  color: #FFFFFB;
+  text-align: center;
+  font: 18px 'Montserrat', san-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.addBtn
+{
+  width: 40%;
+  padding: 14px 30px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FF3737;
+  color: #FFFFFB;
+  text-align: center;
+  font: 18px 'Montserrat', san-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.addBtn:hover
+{
+  background-color: #FF6464;
+}
+
+.generateBtn:hover, .deleteBtn:hover
+{
+  background-color: #FF6464;
+}
+
+.addProduct
+{  
+  font-size: 23px;  
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  text-align: center;    
+  width: 90%;
+}
+
+.viewOpt
+{  
+  font-size: 23px;  
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 180px;
+  margin-top: 20px;
+  text-align: center;    
+  width: 110%;
+}
+
+.viewOpt button
+{
+  width: 30%;
+  padding: 20px 30px;
+  margin: 10px 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FF3737;
+  color: #FFFFFB;
+  text-align: center;
+  font: 18px 'Montserrat', san-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.viewOpt button:hover
+{
+  background-color: #FF6464;
+}
+
+.viewOpt button.a.active
+{
+  background-color: #fbe0ad;
+  color: #1c171a;
+}
+
+.viewOpt a
+{
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFB;
+  font: bold 18px 'Montserrat', san-serif;
+
+}
+
+.notice {
+	font: 26px 'comfortaa', cursive;
+}
+
+.notification {
+	text-align: center;
+}
+
+.button {
+	border: none;
+  	border-radius: 8px;
+  	background-color: #f77a1f;
+  	padding: 14px 28px;
+  	color: #FFFFFB;
+  	text-align: center;
+  	font: 18px 'Montserrat', sans-serif;
+  	margin: auto;
+  	cursor: pointer;
+  	display: inline-block;
+}
+
+.button:hover {
+	background-color: #ff531a;
+}
+
+.selectDaily, .selectWeek, .selectMonth
+{  
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-top: 20px;
+  text-align: center;    
+  width: 105%;
+}
+
+.selectDaily input[type=date], .selectWeek input[type=week], .selectMonth input[type=month]
+{
+  padding: 8px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right:60px;
+  margin-left: 90px;
+  border: solid;
+  border-width: 1px;
+  border-color: maroon;
+  border-radius: 8px;  
+  width: 27%; 
+  text-align: center;
+  font: 17px 'Montserrat', san-serif;
+  cursor: pointer;   
+}
+
+.selectDaily input[type=submit], .selectWeek input[type=submit], .selectMonth input[type=submit]
+{
+  width: 15%;
+  padding: 10px 0px;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right:30px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #46FF46;  
+  color: #000000;
+  text-align: center;
+  font: 17px 'Montserrat', san-serif;
+  cursor: pointer;  
+}
+
+.selectDaily input[type=submit]:hover, .selectWeek input[type=submit]:hover, .selectMonth input[type=submit]:hover
+{
+  background-color: #89FF89;
+}
+
+#Push_header, #Push_footer {
+  transition: .5s ease-in-out;
+}
+
+textarea {
+  resize: none;
+}
+
+.serviceField, .productField, .appointmentField, .orderField{
+  width: 35%;
+  padding: 12px 2px;
+}

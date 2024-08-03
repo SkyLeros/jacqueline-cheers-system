@@ -1,0 +1,181 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100%;
+    background-color: #f9faf4;
+}
+
+header {
+    background-color: #ffc94b;
+    min-width: 1500px;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+    height: 130px;
+}
+
+header .logo {
+    float: left;
+    margin-left: 116px;
+    width: 340px;
+    height: auto;
+    margin-top: -1%;
+}
+
+.header_login {
+    font-size: 35px;
+    color: Black;
+    text-shadow: 1px 1px 1px #ffc94b;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header_login a{
+    text-decoration: none;
+    text-align: center;
+    color: Black;
+    font-size: 20px;
+    text-shadow: 3px 1px 4px #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_login a:hover{
+    color: rgb(0, 0, 0);
+  text-shadow: 1px 1px #ffc94b;
+}
+
+#icon{
+    width: auto;
+    height: 20px;
+    float: right;
+    padding-right: 5px;
+}
+
+.login{
+    margin-top: 7%;
+    font-size: 25px;
+    text-shadow: 3px 1px 4px #ffffff;
+    text-align: center;
+    padding-right: 6px;
+    padding-top:50px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: 3px 1px 4px #ffffff;
+}
+
+.column {
+    text-align: center; 
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 #f9a66c;
+    background-color: white;
+}
+
+.row{
+    display: inline-flex;
+    width: 100%;
+}
+
+.col1{
+    width: 40%;
+    padding: 10px 0px;
+    margin-top: 6px;
+}
+
+.col2{
+    width: 60%;
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+
+.col1 label{
+    margin-left: 22%;
+    float: left;
+    padding-right: 6px;
+    font-size: 18px;
+}
+
+.col2 input{
+    width: 350px;
+    height: 30px;
+}
+
+input[type=password]:focus, input[type=email]:focus {
+    background-color: rgb(229, 226, 255);
+    border: 2px solid #f9a66c;
+}
+
+.button{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.button input{
+    padding: 0px 20px;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #f9a66c;
+    font-size: 18px;
+    margin: 0 20px;
+    background-color: #ffc94b;
+}
+
+.button input:hover{
+    background-color: #f9a66c;
+    color:white;
+    box-shadow: 1px 1px 10px #f9a66c ;
+}
+
+.forgotpw a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-top: -1%;
+}
+
+.forgotpw a:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px #ffc94b;
+}
+
+.login_error {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.login_fail {
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.error{
+    color:red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column #line{
+    border-radius: 5px;
+    border: 2px solid #f9a66c ;
+    width: 75%;
+}

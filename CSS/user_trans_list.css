@@ -1,0 +1,142 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Maiandra GD;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Maiandra GD;
+    color: black;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Footer*/
+.FooterFooter {
+    background-color: black;
+    font-family: Maiandra GD;
+    height: 250px;
+    min-width: 1500px;
+}
+
+.FFooterIcon {
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.FFooterBlocks {
+    font-family: Maiandra GD;
+    color: #b3b3b3;
+    background-color: black;
+    width: 270px;
+    height: 90px;
+    display: inline;
+    float: right;
+}
+
+.FFooterBlocks h3 {
+    text-align: left;
+    padding-left: 15%;
+    list-style-type: none;
+    text-align: left;
+}
+
+.FFooterIcon img {
+    width: 300px;
+    height: 130px;
+}
+
+#FooterLine {
+    border-top: #b3b3b3;
+    position: relative;
+}
+
+.FFooterUpperPortion {
+    height: 140px;
+}
+
+.FFooterLowerPortion {
+    text-align: center;
+}
+
+.Disclaimer {
+    color: #b3b3b3;
+}
+
+/*Header*/
+header {
+    background-color: black;
+    min-width: 1500px;
+    height: 130px;
+    box-shadow: -2px 5px 10px black;
+}
+
+header .menu {
+    margin-top: 50px;
+}
+
+.menu a {
+    font-size: 25px;
+    float: left;
+    padding: 0px 40px;
+    padding-top: 60px;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+header .logo {
+    float: left;
+    margin-left: 10px;
+    width: 280px;
+    height: 120px;
+}
+
+#logout {
+    margin-top: 1%;
+}
+
+.logout a {
+    font-family: Maiandra GD;
+    color: #cccccc;
+    float:right;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin-top: 1%;
+}
+
+.logout .image_login_register{
+    width: 30px;
+    height: auto;
+    float:right;
+    margin-top: 1%;
+    padding-right: 20px;
+}
+
+#cart {
+    width: 40px;
+    height: auto;
+    
+}
+
+.menu .cart_position {
+    float: right;
+    margin-right: 5%;
+}
+
+#active {
+    color:white;
+    text-shadow: 2px 2px 5px white;
+}
+
+.menu a:hover {
+    color:rgb(230, 230, 230);
+}
+
+

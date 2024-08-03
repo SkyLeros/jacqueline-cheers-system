@@ -1,0 +1,225 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100%;
+    background-color: #f9faf4;
+}
+
+.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+/*Header*/
+.HeaderHeader {
+    background: #ffc94b;
+    height: 150px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+}
+  
+.login_register {
+    margin-right: 5%;
+    padding-bottom: 0;
+    background: #ffc94b;
+}
+  
+.login_register .image_login_register {
+    width: auto;
+    height: 25px;
+    float:right;
+}
+  
+.login_register ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 50px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+  
+.login_register li {
+    float:right;
+    font-size: 18px;
+    color: BLack;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+  
+.login_register #abc #topnav a{
+    float:right;
+    font-size: 25px;
+    color: BLack;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.login_register #abc #topnav a:hover, .login_register #abc #active a{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    float:right;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+  
+.login_register li a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: BLack;
+}
+  
+.login_register li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+  
+  
+.logo {
+    float: left;
+    width: 340px;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 82px;
+}
+
+/*Side logo*/
+#abc {
+    list-style-type: none;
+    float: left;
+  }
+  
+  .side_logo #abc li{
+    display: inline;
+    padding: 0 15px;
+  }
+
+/*cart*/
+
+#cart {
+    width: 40px;
+    height: auto;
+}
+  
+.cart_position {
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+/* end header*/
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  td, th {
+    text-align: left;
+    padding:15px;
+    color: black;
+    border-bottom: 1px solid #81818140;
+  }
+
+tr[data-href]
+{
+    cursor:pointer;
+}
+tr[data-href]:hover
+{
+    background-color: rgb(236, 211, 112);
+}
+
+
+.coll{
+    width:100%;
+    display: flex;
+    margin-bottom: -5%;
+}
+
+.coll1, .coll3{
+    width:33%;
+}
+.coll2{
+    width:33%;
+    background-color: #ffc94b;
+    height: 200px;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+}
+
+.coll2 .notify{
+    color: black;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top:30px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+.placement{
+    padding-top:30px;
+}
+
+.buttons{
+    color: black;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffc94b;
+    text-decoration: none;
+    padding: 25px ;
+    display: block;
+}
+
+.buttons:hover{
+    color: white;
+    background-color: #f9a66c;
+}
+.content-box{
+	padding: 20px;
+    margin:80px 180px;
+    background-color: #dddddd47;
+    box-shadow: 0 4px 8px 0 #f9a66c;
+}
+
+.content-box p{
+	margin: 0px;
+    font-size: 30px;
+    color: #f7403b;
+}
+
+.content-box p span{
+	float: right;
+    background-color: #ddd;
+    padding: 3px 10px;
+    font-size: 15px;
+}

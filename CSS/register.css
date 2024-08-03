@@ -1,0 +1,259 @@
+html {
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    background-color: #f9faf4;
+}
+
+header {
+    background-color: #ffc94b;
+    min-width: 1500px;
+    height: 130px;
+    box-shadow: 1px 1px 5px 1px #f9faf4;
+}
+
+header .logo {
+    float: left;
+    margin-left: 116px;
+    width: 340px;
+    height: auto;
+    margin-top: -1%;
+  }
+
+.header_signup {
+    font-size: 35px;
+    color: Black;
+    text-shadow: 1px 1px 1px #ffc94b;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header_signup a{
+    text-decoration: none;
+    text-align: center;
+    color: Black;
+    font-size: 20px;
+    text-shadow: 3px 1px 4px #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header_signup a:hover{
+    color: rgb(0, 0, 0);
+  text-shadow: 1px 1px #ffc94b;
+}
+
+.signup{
+    padding-top: 2%;
+    font-size: 25px;
+    text-shadow: 3px 1px 4px #ffffff;
+    text-align: center;
+    padding-right: 6px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: 3px 1px 4px #ffffff;
+}
+
+.column {
+    text-align: center; 
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 #f9a66c;
+    background-color: white;
+}
+
+.row{
+    display: inline-flex;
+    width: 100%;
+}
+
+.col1{
+    width: 40%;
+    padding: 10px 0px;
+    margin-top: 6px;
+}
+
+.col2{
+    width: 60%;
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+
+.col1 label{
+    margin-left: 22%;
+    float: left;
+    padding-right: 6px;
+    font-size: 18px;
+}
+
+.col2 input{
+    width: 350px;
+    height: 30px;
+}
+
+form select{
+    height: 35px;
+    width: 350px;
+}
+
+#mobile{
+    width: 291px;
+    height: 30px;
+}
+
+.gender{
+    display: inline-flex;
+    width: 100%;
+}
+
+.gender input{
+    all: revert;
+    height: 25px;
+    width: 20px;
+    margin-left: 10%;
+}
+
+.gender label{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#region {
+    width: 53px;
+}
+
+#state {
+    width: 358px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: rgb(229, 226, 255);
+    border: 2px solid #f9a66c;
+}
+
+.Terms_Con{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Terms_Con input{
+    height: 15px;
+    width: 15px;
+}
+
+.Terms_Con label{
+    padding-bottom: 90px;
+}
+
+.button{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+.button input{
+    padding: 0px 20px;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #f9a66c;
+    font-size: 18px;
+    margin: 0 20px;
+    background-color: #ffc94b;
+}
+
+.button input:hover{
+    background-color: #f9a66c;
+    color:white;
+    box-shadow: 1px 1px 10px #f9a66c ;
+}
+
+#icon{
+    width: auto;
+    height: 20px;
+    float: right;
+    padding-right: 5px;
+}
+
+/*Extra Css for PHP validation*/
+.error{
+    color:red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.correct{
+    color: green;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hint{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.errorGender{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+.errorTerms{
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+.welcome{
+    text-align : center;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.welcome a{
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome a:hover{
+    color: #f9a66c ;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+.column #line{
+    border-radius: 5px;
+    border: 2px solid #f9a66c ;
+    width: 75%;
+}
